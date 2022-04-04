@@ -1,0 +1,13 @@
+.blogs-container {
+  width: 85%;
+  margin: 100px auto;
+}
+.blogs-container h1 {
+  text-align: center;
+}
+.blog {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 30px;
+}
