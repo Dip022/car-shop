@@ -1,0 +1,56 @@
+.home-container {
+  width: 85%;
+  margin: 100px auto;
+}
+.car-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 30px;
+}
+.car-details h1 {
+  font-size: 60px;
+  color: #5045df;
+  margin-bottom: 0;
+}
+.car-details p {
+  font-size: 18px;
+}
+.car-img img {
+  width: 100%;
+}
+.car-details button {
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5045df;
+}
+.review-container {
+  margin-top: 50px;
+}
+.review-container h1 {
+  text-align: center;
+}
+.customer-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.see-all-review {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.car-review {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  display: inline-flex;
+  background-color: #5045df;
+}

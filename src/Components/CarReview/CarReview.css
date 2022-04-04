@@ -1,0 +1,15 @@
+.review {
+  border: 1px solid gray;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.review-details {
+  display: flex;
+  align-items: center;
+}
+.review-details img {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
