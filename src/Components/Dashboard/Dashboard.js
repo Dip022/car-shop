@@ -1,9 +1,13 @@
-import React from "react";
+import React from "recharts";
+import DashedLineChart from "../DashedLineChart/DashedLineChart";
+import SimpleLineChart from "../SimpleLineChart/SimpleLineChart";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className="dashboard-container">
+      <SimpleLineChart></SimpleLineChart>
+      <DashedLineChart></DashedLineChart>
     </div>
   );
 };
