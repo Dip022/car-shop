@@ -13,10 +13,9 @@ const Home = () => {
         <div className="car-details">
           <h1>Car Collection</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            alias fugit rem, possimus incidunt laudantium perspiciatis dolore
-            quod voluptatum eaque officiis sunt ut, quia minus exercitationem
-            tenetur tempore facilis necessitatibus?
+            Our mission is to give you back the new model cars that come to you.
+            That's why we keep sophisticated car calendars in our showroom. So
+            that you can easily get your car shot.
           </p>
           <button type="button">Live Demo</button>
         </div>
