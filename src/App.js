@@ -1,9 +1,12 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h1>My best car</h1>
+      <Routes>
+        <Route></Route>
+      </Routes>
     </div>
   );
 }
