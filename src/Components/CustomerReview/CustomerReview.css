@@ -3,6 +3,10 @@
   padding: 10px 15px;
   border-radius: 5px;
 }
+.review p {
+  font-size: 18px;
+}
+
 .review-details {
   display: flex;
   align-items: center;

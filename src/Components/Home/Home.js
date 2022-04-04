@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import useReview from "../../hooks/useReview";
 import image from "../../image/car.png";
-import CarReview from "../CarReview/CarReview";
+import CustomerReview from "../CustomerReview/CustomerReview";
 import "./Home.css";
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
         <h1>Customer Review(3) </h1>
         <div className="customer-reviews">
           {reviews.slice(0, 3).map((review) => (
-            <CarReview review={review} key={review.id}></CarReview>
+            <CustomerReview review={review} key={review.id}></CustomerReview>
           ))}
         </div>
         <div className="see-all-review">

@@ -1,7 +1,7 @@
 import React from "react";
-import "./CarReview.css";
+import "./CustomerReview.css";
 
-const CarReview = (props) => {
+const CustomerReview = (props) => {
   const { name, img, review, rating } = props.review;
   return (
     <div className="review">
@@ -10,9 +10,9 @@ const CarReview = (props) => {
         <h2>{name}</h2>
       </div>
       <p>Review: {review}</p>
-      <h4>Rating: {rating}</h4>
+      <h4>Rating: {rating} star</h4>
     </div>
   );
 };
 
-export default CarReview;
+export default CustomerReview;
